@@ -53,7 +53,7 @@ public class Main {
                     System.out.println("Your item has been added.");
                     break;
                 case 2:
-                    // check if itemList is empty.
+                    // check if itemList is empty..
                     if(register.getItemList().isEmpty()){
                         System.out.println("No items to show");
                         break;
