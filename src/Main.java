@@ -60,7 +60,7 @@ public class Main {
                     }
                     System.out.println();
                     System.out.println("Shopping List");
-                    System.out.println("-----------------------------");
+                    System.out.println("--------------------------------");
                     System.out.println();
                     register.getItemList().forEach(System.out::println);
                     System.out.println();
@@ -73,7 +73,7 @@ public class Main {
                     }
                     System.out.println();
                     System.out.println("Most expensive item");
-                    System.out.println("-----------------------------");
+                    System.out.println("--------------------------------");
                     System.out.println();
                     // stream that gets the maximum value from the list of items.
                     System.out.println(register.getItemList().stream().max(Comparator.comparing(Item::getPrice)).get());
@@ -84,7 +84,7 @@ public class Main {
                     }
                     System.out.println();
                     System.out.println("Cheapest item");
-                    System.out.println("-----------------------------");
+                    System.out.println("--------------------------------");
                     System.out.println();
                     // stream that gets the minimum value from the list of items.
                     System.out.println(register.getItemList().stream().min(Comparator.comparing(Item::getPrice)).get());
